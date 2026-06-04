@@ -592,7 +592,7 @@ nav a:hover{
     text-align: center;
 }
 
-.success-card h2{
+.success-card h2 ,p{
     color: green;
     margin-bottom: 10px;
 }
