@@ -581,5 +581,19 @@ nav a:hover{
     0 0 10px #f59e0b,
     0 0 20px #f59e0b;
 }
+.success-card{
+    display: none;
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
 
+.success-card h2{
+    color: green;
+    margin-bottom: 10px;
+}
 
