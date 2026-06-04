@@ -1,66 +1,113 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Contact</title>
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Janhavi Thorve</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<nav class="navigation">
-    <a href="index.html" >Home</a>
-    <a href="about.html">About</a>
-    <a href="skills.html">Skills</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html"class="active">Contact</a>
 
-    <span class="indicator"></span>
-</nav>
 <body>
-<section class="contact-section">
-    <h1 class="contact-title">Let's Connect</h1>
-    <p class="contact-subtitle">
-        Interested in working together or discussing a project?
-        Feel free to contact me.
-    </p>
-    <div class="contact-info">
-    <h2>Contact Information</h2>
 
-    <p>
-        📧 <a href="mailto:janhavithorve29@gmail.com">
-        janhavithorve29@gmail.com
-        </a>
-    </p>
+    <!-- Navigation -->
+    <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html" class="active">Contact</a>
 
-    <p>
-        💼 <a href="https://www.linkedin.com/in/janhavi-thorve-47125b409"
-        target="_blank">
-        LinkedIn Profile
-        </a>
-    </p>
+        <span class="indicator"></span>
+    </nav>
 
-    <p>
-        💻 <a href="https://github.com/janhav-i2006"
-        target="_blank">
-        GitHub
-        </a>
-    </p>
+    <!-- Contact Section -->
+    <section class="contact-section">
 
-    <p>
-        📷 <a href="https://www.instagram.com/SIMPLE4_121/"
-        target="_blank">
-        Instagram
-        </a>
-    </p>
+        <h1 class="contact-title">Let's Connect</h1>
 
-    <p>📍 Maharashtra, India</p>
-</div>
-        <form class="contact-form">
-            <input type="text" placeholder="Your Name">
-            <input type="email" placeholder="Your Email">
-            <textarea placeholder="Your Message"></textarea>
+        <p class="contact-subtitle">
+            Interested in working together or discussing a project?
+            Feel free to contact me.
+        </p>
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+
+            <h2>Contact Information</h2>
+
+            <p>
+                📧
+                <a href="mailto:janhavithorve29@gmail.com">
+                    janhavithorve29@gmail.com
+                </a>
+            </p>
+
+            <p>
+                💼
+                <a href="https://www.linkedin.com/in/janhavi-thorve-47125b409"
+                   target="_blank">
+                    LinkedIn Profile
+                </a>
+            </p>
+
+            <p>
+                💻
+                <a href="https://github.com/janhav-i2006"
+                   target="_blank">
+                    GitHub
+                </a>
+            </p>
+
+            <p>
+                📷
+                <a href="https://www.instagram.com/SIMPLE4_121/"
+                   target="_blank">
+                    Instagram
+                </a>
+            </p>
+
+            <p>📍 Maharashtra, India</p>
+
+        </div>
+
+        <!-- Contact Form -->
+        <form class="contact-form"
+              action="https://formsubmit.co/janhavithorve29@gmail.com"
+              method="POST">
+
+            <input type="text"
+                   name="name"
+                   placeholder="Your Name"
+                   required>
+
+            <input type="email"
+                   name="email"
+                   placeholder="Your Email"
+                   required>
+
+            <textarea name="message"
+                      rows="6"
+                      placeholder="Your Message"
+                      required></textarea>
+
+            <!-- FormSubmit Settings -->
+            <input type="hidden" name="_captcha" value="false">
+
+            <input type="hidden"
+                   name="_subject"
+                   value="New Portfolio Contact Message">
+
             <button type="submit">
                 Send Message
             </button>
+<input type="hidden" name="_captcha" value="false">
+
+<input type="hidden" name="_next"
+       value="http://127.0.0.1:5500/thankyou.html">
         </form>
-    </div>
-</section>
+
+    </section>
+
 </body>
 </html>
