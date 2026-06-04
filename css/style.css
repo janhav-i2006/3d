@@ -581,21 +581,42 @@ nav a:hover{
     0 0 10px #f59e0b,
     0 0 20px #f59e0b;
 }
-.success-card{
-    display: none;
-    max-width: 450px;
-    margin: 20px auto;
-    padding: 20px;
-    background: white;
+.success-card {
+    display: none; /* Hidden initially */
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    background: #fff;
+    padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+
     text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+
+    z-index: 9999;
 }
 
-.success-card h2 ,.success-card p{
+.success-card h2 {
     color: green;
     margin-bottom: 10px;
-     text-align: center;
+}
 
+.home-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.success-card p {
+    color: #333;
+    font-size: 16px;
+    margin: 10px 0;
 }
 
